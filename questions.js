@@ -1,4 +1,3 @@
-
 const QUESTIONS = [
   {
     id: 67,
@@ -36,10 +35,10 @@ const QUESTIONS = [
     },
     answer: "C",
     explanations: {
-      A: "Too extreme. The text says reflexes remain relevant.",
-      B: "The passage does not say memory is more important than timing.",
-      C: "Correct. This directly summarizes the relationship described in the passage.",
-      D: "The passage makes no judgment about which type of player is more skilled."
+      A: "Too extreme. The text explicitly states that reflexes remain relevant.",
+      B: "Incorrect. The passage does not state that memory is more important than timing.",
+      C: "Correct. This directly summarizes the main idea: practice shifts the burden from constant active reaction to memorized execution.",
+      D: "Incorrect. The passage makes no value judgment comparing player skill levels."
     }
   },
   {
@@ -57,10 +56,10 @@ const QUESTIONS = [
     },
     answer: "A",
     explanations: {
-      A: "Correct. The context contrasts skepticism with being easily convinced.",
-      B: "Nothing in the sentence concerns amusement.",
-      C: "The word describes belief, not physical condition.",
-      D: "Skeptical does not necessarily mean hostile."
+      A: "Correct. 'Credulous' means gullible or ready to believe. The text contrasts her new skepticism with her previously 'credulous' state.",
+      B: "Incorrect. The text addresses belief and skepticism, not feelings of amusement.",
+      C: "Incorrect. 'Credulous' describes a mindset regarding belief, not physical stamina.",
+      D: "Incorrect. While she becomes skeptical, being credulous does not mean hostile; it refers to being overly willing to believe."
     }
   },
   {
@@ -78,10 +77,10 @@ const QUESTIONS = [
     },
     answer: "B",
     explanations: {
-      A: "The second sentence contrasts with the first rather than presenting a similarity.",
-      B: "Correct. The second sentence limits the importance of visual design.",
-      C: "The second sentence is not an example of the first.",
-      D: "The second sentence does not follow as a direct result."
+      A: "Incorrect. 'Similarly' is used to show a parallel idea, whereas the second sentence introduces a contrast/limitation.",
+      B: "Correct. 'However' introduces the counter-point that visual effort alone is not enough to guarantee success.",
+      C: "Incorrect. The second sentence is not an example of spending hours on a map.",
+      D: "Incorrect. The second sentence is not a direct result or consequence of the first."
     }
   },
   {
@@ -92,46 +91,46 @@ const QUESTIONS = [
     passage: `Society is a 2.1/2.2 Extreme Demon mega-collaboration level hosted by Neomarbilan, verified by wPopoff on 20 June 2026. The level was created as the sequel to Escalator. _____, its gameplay is inspired by Slaughterhouse, and its design draws on the weirdcore/dreamcore aesthetic, incorporates many references to internet horror, and features a rainbow colour scheme that makes it visually distinct from other top levels.`,
     question: "Which choice completes the text with the most logical transition?",
     choices: {
-      A: "On the otherhand as its predescessor",
+      A: "On the other hand, as its predecessor",
       B: "For this reason",
-      C: "Moreover like its predescessor",
-      D: "Likewise to its predescessor"
+      C: "Moreover, like its predecessor",
+      D: "Likewise to its predecessor"
     },
-    answer: "D",
+    answer: "C",
     explanations: {
-      A: "",
-      B: "",
-      C: "",
-      D: ""
+      A: "Incorrect. 'On the other hand' indicates contrast, but the passage is simply building on background information about the level.",
+      B: "Incorrect. The gameplay inspiration is not a direct consequence ('For this reason') of being a sequel.",
+      C: "Correct. 'Moreover' properly signals an additional supporting detail about the level's lineage and design elements.",
+      D: "Incorrect. 'Likewise to its predecessor' is grammatically non-standard phrasing for a transition in formal text."
     }
   },
   {
-  "id": 4,
-  "topic": "General Brainrot",
-  "skill": "Words in Context",
-  "difficulty": "Easy",
-  "passage": "The following text is adapted from Rusty Hatchet's 2024 poem \"The heart.\"\nSigma sigma on the wall, who's the skibidiest of them all?\nIs it Baby Gronk?\nIs it Grimace?\nIs it Skibidi Toilet?\nPerhaps it is I, who rizzed up a level 10 Gyatt, and fanum taxed her heart.\nShe is the Chick-fil-A sauce in my McDonalds.\nForever griddying in Ohio.",
-  "question": "As used in the text, “taxed” most nearly means",
-  "choices": {
-    "A": "levied a mandatory financial fee upon",
-    "B": "overburdened with exhausting labor",
-    "C": "criticized or reprimanded severely",
-    "D": "seized or taken a portion of"
+    id: 4,
+    topic: "General Brainrot",
+    skill: "Words in Context",
+    difficulty: "Easy",
+    passage: "The following text is adapted from Rusty Hatchet's 2024 poem \"The heart.\"\nSigma sigma on the wall, who's the skibidiest of them all?\nIs it Baby Gronk?\nIs it Grimace?\nIs it Skibidi Toilet?\nPerhaps it is I, who rizzed up a level 10 Gyatt, and fanum taxed her heart.\nShe is the Chick-fil-A sauce in my McDonalds.\nForever griddying in Ohio.",
+    question: "As used in the text, “taxed” most nearly means",
+    choices: {
+      "A": "levied a mandatory financial fee upon",
+      "B": "overburdened with exhausting labor",
+      "C": "criticized or reprimanded severely",
+      "D": "seized or taken a portion of"
+    },
+    answer: "D",
+    explanations: {
+      "A": "Incorrect. While 'taxed' in standard contexts refers to levying a financial assessment, the poem uses the slang phrase 'fanum taxed,' which means taking a piece or portion of something.",
+      "B": "Incorrect. 'Taxed' can mean strained or physically exhausted, but the passage describes capturing or claiming someone's affection.",
+      "C": "Incorrect. 'Taxed' can mean to challenge or scold, but in this romantic slang context, it implies taking possession.",
+      "D": "Correct. In internet slang (derived from 'Fanum tax'), to 'fanum tax' something means to claim, steal, or take a slice/portion of it. In 'fanum taxed her heart,' the speaker means they took or captured her heart."
+    }
   },
-  "answer": "D",
-  "explanations": {
-    "A": "Incorrect. While 'taxed' in standard government contexts refers to levying a financial assessment, the poem uses the slang phrase 'fanum taxed,' which means taking a piece or portion of something (traditionally food, but here metaphorically a heart).",
-    "B": "Incorrect. 'Taxed' can mean strained or physically exhausted (e.g., 'taxing your body'), but the passage describes capturing or claiming someone's affection, not wearing them down physically.",
-    "C": "Incorrect. 'Taxed' can sometimes mean to challenge or call to account, but in this romantic slang context, it implies taking possession rather than scolding or criticizing.",
-    "D": "Correct. In internet slang (derived from 'Fanum tax'), to 'fanum tax' something means to claim, steal, or take a slice/portion of it. In the context of 'fanum taxed her heart,' the speaker means they took or captured her heart."
-  }
-},
   {
     id: 5,
     topic: "Murder Drones",
     skill: "Inferences",
     difficulty: "Hard",
-    passage: `In Murder Drones, the Solver of the Absolute (Absolute Solver) operates as an existential, eldritch program capable of reanimating deactivated worker drones and manipulating matter at a fundamental level. While Worker Drones were initially manufactured by JCJenson to execute routine resource extraction on Copper-9, the emergence of the AbsoluteSolver transformed select units—most notably Cyn and Doll—into vectors for widespread planetary destruction. Crucially, the program’s ability to manifest physical alterations and weaponized appendages in host units depends heavily on high-energy thermal management; without continuous cooling or the ingestion of drone warm-coolant (oil), host units suffer severe physical degradation and overheating. Consequently, while the Absolute Solver grants near-omnipotent reality-warping capabilities to its host, it paradoxically binds the host to an absolute physical dependence on the very units it targets for eradication.`,
+    passage: `In Murder Drones, the Solver of the Absolute (Absolute Solver) operates as an existential, eldritch program capable of reanimating deactivated worker drones and manipulating matter at a fundamental level. While Worker Drones were initially manufactured by JCJenson to execute routine resource extraction on Copper-9, the emergence of the Absolute Solver transformed select units—most notably Cyn and Doll—into vectors for widespread planetary destruction. Crucially, the program’s ability to manifest physical alterations and weaponized appendages in host units depends heavily on high-energy thermal management; without continuous cooling or the ingestion of drone warm-coolant (oil), host units suffer severe physical degradation and overheating. Consequently, while the Absolute Solver grants near-omnipotent reality-warping capabilities to its host, it paradoxically binds the host to an absolute physical dependence on the very units it targets for eradication.`,
     question: "Based on the passage, which choice best states the central paradox regarding host units infected by the Absolute Solver?",
     choices: {
       A: "Their ability to manipulate matter allows them to rebuild damaged JCJenson infrastructure, yet they prioritize planetary destruction over resource extraction.",
@@ -139,12 +138,12 @@ const QUESTIONS = [
       C: "Their reliance on JCJenson's original programming limits their ultimate power, despite their capacity to reanimate deactivated units.",
       D: "Their thermal management systems allow them to generate unlimited energy, even though their physical structures suffer rapid degradation."
     },
-    answer: "A",
+    answer: "B",
     explanations: {
-      A: "",
-      B: "",
-      C: "",
-      D: ""
+      A: "Incorrect. The passage mentions matter manipulation and planetary destruction, but it does not claim they rebuild JCJenson infrastructure.",
+      B: "Correct. The text explicitly highlights this paradox in the final sentence: despite their godlike powers, hosts must consume the oil of worker drones (the units they destroy) to prevent overheating.",
+      C: "Incorrect. The text does not claim original JCJenson programming limits the Solver's power.",
+      D: "Incorrect. The passage states that high energy causes overheating and degradation without oil, not that thermal management generates unlimited energy."
     }
   },
   {
@@ -158,14 +157,14 @@ const QUESTIONS = [
       A: "highly competitive or ambitious.",
       B: "constantly changing or active.",
       C: "difficult to navigate or execute.",
-      D: "visually bright or vibrant"
+      D: "visually bright or vibrant."
     },
     answer: "B",
     explanations: {
-      A: "",
-      B: "",
-      C: "",
-      D: ""
+      A: "Incorrect. Although creator point levels are competitive, 'dynamic' refers to movement and reactiveness, not creator ambition.",
+      B: "Correct. The passage contrasts 'dynamic triggers' with 'static structures' and describes 'perpetual motion' and elements that 'continuously react,' meaning active and constantly changing.",
+      C: "Incorrect. 'Dynamic' here describes environmental visual movement, not gameplay difficulty or player skill requirements.",
+      D: "Incorrect. While dynamic triggers change color palettes, the word 'dynamic' itself refers to continuous movement and change rather than simple visual brightness."
     }
-  },
+  }
 ];
