@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AltSAT — People who have a shitty attention span</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+      <div>
+        <div class="brand-title">AltSAT</div>
+        <div class="brand-subtitle">SAT reading practice, less boring.</div>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <select id="topicFilter" aria-label="Topic filter">
+        <option value="all">All topics</option>
+      </select>
+      <select id="skillFilter" aria-label="Skill filter">
+        <option value="all">All skills</option>
+      </select>
+      <button id="randomBtn" class="secondary">Random Question</button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="passage-panel">
+      <div class="meta-row">
+        <span id="topicBadge" class="badge"></span>
+        <span id="skillBadge" class="badge"></span>
+        <span id="difficultyBadge" class="badge difficulty"></span>
+      </div>
+
+      <div id="passage" class="passage"></div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="question-panel">
+      <div class="question-toolbar">
+        <div class="number-wrap">
+          <div id="questionNumber" class="number-box">1</div>
+          <button id="markBtn" class="mark-btn">☆ Mark for Review</button>
+        </div>
+
+        <div class="scorebox">
+          <span>Score</span>
+          <strong id="scoreText">0 / 0</strong>
+        </div>
+      </div>
+
+      <h2 id="questionText" class="question-text"></h2>
+
+      <div id="choices" class="choices"></div>
+
+      <div id="feedback" class="feedback hidden">
+        <div id="feedbackTitle" class="feedback-title"></div>
+        <div id="feedbackBody"></div>
+      </div>
+
+      <div class="bottom-actions">
+        <button id="checkBtn" class="primary">Check Answer</button>
+        <button id="nextBtn" class="secondary">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Not a official practice tool. I am not affiliated with Collegeboard (even though I wish I was).
+  </footer>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
